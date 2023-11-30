@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+
+
+
+body {
+    height: 100vh;
+    
+    background: linear-gradient(to bottom left, #F0F600, #00A8AA);
+}
