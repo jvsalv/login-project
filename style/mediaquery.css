@@ -66,4 +66,8 @@
         font-size: 2em;
         margin-top: 80px;
     }
+
+    form > div.xfield {
+        width: 85%;
+    }
 }
