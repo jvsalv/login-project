@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 :root {
-    --mainbg: #00A8AA;
+    --mainbg: #31572c;
     --secobg: #F0F600;
+    --maincolor:  #007f5f;
+    --secocolor: white;
 }
 
 
@@ -17,9 +19,8 @@
 body, html {
     height: 100vh;
     width: 100vw;
-    background: var(--mainbg) url(../media/bg1.jpg) no-repeat;
-    background-size: cover;
-    background-position: center bottom;
+    
+    background-color: var(--mainbg);
 }
 
 
@@ -31,23 +32,23 @@ main {
 }
 
 section#zlogin {
-    height: 500px;
+    height: 550px;
     width: 350px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    padding: 20px;
     
-    background-color: rgba(255, 255, 255, 0.30);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    color: var(--maincolor);
+    background-color: var(--secocolor);
+    border-radius: 20px;
 }
+section div#zimg {
+    height: 250px;
 
-section#zlogin > form {
-
+    background: var(--maincolor) url(../media/bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
