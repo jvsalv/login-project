@@ -21,6 +21,7 @@
     }
     section#zlogin {
         width: 85vw;
+        height: 400px;
     }
 
     section#zlogin > div#zform {
@@ -36,6 +37,7 @@
 
     div#zform > h1 {
         font-size: 2em;
+        margin-top: 40px;
     }
 }
 
@@ -62,5 +64,6 @@
 
     div#zform > h1 {
         font-size: 2em;
+        margin-top: 80px;
     }
 }
