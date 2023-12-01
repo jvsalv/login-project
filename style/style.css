@@ -75,6 +75,7 @@ form > div.xfield {
     height: 41px;
     display: block;
     margin: 10px auto 0px auto;
+    overflow: hidden;
 
     background-color: var(--maincolor);
     color: white;
