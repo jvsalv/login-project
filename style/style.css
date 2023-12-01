@@ -20,7 +20,7 @@ body, html {
     height: 100vh;
     width: 100vw;
     
-    background-color: var(--mainbg);
+    background-color: var(--maincolor);
 }
 
 
@@ -60,4 +60,10 @@ section div#zimg {
 section#zlogin > div#zform {
     display: block;
     padding: 10px;
+}
+
+div#zform > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
 }

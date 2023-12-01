@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/mediaquery.css">
     <title>Login</title>
@@ -13,8 +15,19 @@
             <div id="zimg"></div>
             <div id="zform">
                 <h1>Login</h1>
-                <form action="login" method="post">
-
+                <form action="login" method="post" autocomplete="on">
+                    <div class="xfield">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="login" id="zlogin" placeholder="E-mail" autocomplete="email" required maxlength="30">
+                        <label for="zlogin">Login</label>
+                    </div>
+                    <div class="xpass">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="password" id="zpass" autocomplete="current-password" required minlength="8" maxlength="16">
+                        <label for="zpass">Password</label>
+                    </div>
+                    <input type="submit" value="Submit">
+                    <a href="forgot.html">Forgot password</a>
                 </form>
             </div>
         </section>
