@@ -71,10 +71,10 @@ div#zform > h1 {
 
 
 form > div.xfield {
-    width: 100%;
+    width: 90%;
     height: 40px;
     display: block;
-    margin: 10px 0px;
+    margin: 10px auto 0px auto;
 
     background-color: var(--maincolor);
     color: white;
