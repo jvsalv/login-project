@@ -25,11 +25,11 @@
 
     section#zlogin > div#zform {
         float: left;
-        width: 70%;
+        width: 60%;
     }
 
     section#zlogin > div#zimg {
-        width: 30%;
+        width: 40%;
         height: 100%;
         float: right;
     }

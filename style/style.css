@@ -67,3 +67,64 @@ div#zform > h1 {
     margin-bottom: 10px;
     font-weight: bolder;
 }
+
+
+
+form > div.xfield {
+    width: 100%;
+    height: 40px;
+    display: block;
+    margin: 5px 0px;
+
+    background-color: var(--maincolor);
+    color: white;
+    border-radius: 5px;
+
+}
+
+form label {
+    display: none;
+}
+
+
+
+
+
+
+form input[type=submit] {
+    width: 40%;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+    
+    background-color: var(--maincolor);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+form input[type=submit]:hover {
+    background-color: #00533f;
+}
+
+
+form a.xbutton {
+    width: 40%;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+    padding-top: 10px;
+
+    background-color: var(--maincolor);
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form a.xbutton:hover {
+    background-color: #00533f;
+}
