@@ -40,15 +40,24 @@ section#zlogin {
     transform: translate(-50%, -50%);
     overflow: hidden;
     
-    
     color: var(--maincolor);
     background-color: var(--secocolor);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.31);
     border-radius: 20px;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 section div#zimg {
     height: 250px;
+    display: block;
 
     background: var(--maincolor) url(../media/bg1.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+section#zlogin > div#zform {
+    display: block;
+    padding: 10px;
 }

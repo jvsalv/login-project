@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+
+
+
+:root {
+    --mainbg: #31572c;
+    --secobg: #F0F600;
+    --maincolor:  #007f5f;
+    --secocolor: white;
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* TABLET */
+    body {
+        background-image: linear-gradient(to top, var(--mainbg), var(--maincolor) );
+    }
+    section#zlogin {
+        width: 85vw;
+    }
+
+    section#zlogin > div#zform {
+        float: right;
+        width: 70%;
+    }
+
+    section#zlogin > div#zimg {
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* DESKTOP */
+    body {
+        background-image: linear-gradient(to top, var(--mainbg), var(--maincolor) );
+    }
+    section#zlogin {
+        width: 990px;
+    }
+    
+    section#zlogin > div#zform {
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+
+    section#zlogin > div#zimg {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+}
