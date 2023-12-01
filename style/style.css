@@ -72,7 +72,7 @@ div#zform > h1 {
 
 form > div.xfield {
     width: 90%;
-    height: 40px;
+    height: 41px;
     display: block;
     margin: 10px auto 0px auto;
 
@@ -93,7 +93,7 @@ div.xfield > i {
 div.xfield > input {
     width: calc(100% - 60px);
     height: 100%;
-    transform: translateY(-11px);
+    transform: translateY(-10px);
     margin-left: 16px;
     padding: 20px;
 

@@ -70,4 +70,7 @@
     form > div.xfield {
         width: 85%;
     }
+    div.xfield > input {
+        transform: translateY(-10px);
+    }
 }
